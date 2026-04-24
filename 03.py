@@ -1,0 +1,5 @@
+peach = int(input("ももの個数を入力してください"))
+orange = int(input("みかんの個数を入力してください"))
+print("ももを一つ100円、みかんを一つ40円として、合計金額を出力します。")
+sum_total = (peach*100+orange*40)
+print("ももとみかんの合計金額は",sum_total,"円です")
